@@ -122,7 +122,9 @@ module.exports = {
       // Server configuration options.
       server: {
         // Normally a free port is autodetected, but feel free to set this if needed.
-        port: 8001
+        port: 8001,
+        // Normally :: meaning all available IP addresses, you can limit it to a specific one.
+        host: '127.0.0.1'
       },
 
       // The actual renderer to use. (Feel free to write your own)
